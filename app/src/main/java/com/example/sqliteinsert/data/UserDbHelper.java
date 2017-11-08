@@ -26,7 +26,7 @@ public class UserDbHelper extends SQLiteOpenHelper
             db.execSQL(CREATE_TABLE);
             Message.message(context,"TABLE CREATED");
         } catch (Exception e) {
-            Message.message(context,"" + e);
+            Message.message(context,""+ e);
         }
     }
 
