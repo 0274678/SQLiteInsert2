@@ -9,10 +9,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.util.Log;
 
-/**
- * Created by Jordy on 09-11-17.
- */
-
 public class UserProvider extends ContentProvider {
 
     public static final String LOG_TAG = UserProvider.class.getSimpleName();

@@ -15,7 +15,7 @@ public class myDbAdapter extends SQLiteOpenHelper
 
     public myDbAdapter(Context context) {
         super(context, UserContract.DATABASE_NAME, null, UserContract.DATABASE_VERSION);
-        this.context=context;
+        this.context = context;
         Message.message(context,"Started...");
     }
 
