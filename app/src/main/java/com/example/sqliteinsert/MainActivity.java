@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //test
     public void deleteUser(View view)
     {
         try {
